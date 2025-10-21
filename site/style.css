@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #242424;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .logo{
+    display:inline-flex;
+  }
+
+  .logo img{
+    width: 200px;
+    height: 200px;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .cabecalho {
+    background-color: #056430;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.43);
+    padding: 40px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+  
+  .cabecalho h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  p{
+    margin: 10px;
+  }
+
+  section {
+    margin: 30px 0;
+  }
+  
+  section h2 {
+    color: #06ae49;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.285);
+    margin-bottom: 15px;
+  }
+  
+  section h4{
+    color: #06ae49;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.285);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+  
+  
+  .beneficio {
+    background-color: #efe2c1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.455);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+
+  .rodape {
+    background-color: #056430;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.068);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  }
+   
+  div>h3{
+    color: #2e8a52;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.285);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+
+  .centralizado {
+    position: relative;
+    top: 20%;
+    left: 20%;
+  }
