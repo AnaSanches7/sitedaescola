@@ -32,6 +32,10 @@ img {
   border-radius: 10px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .cabecalho {
   background-color: #056430;
   color: white;
@@ -77,12 +81,13 @@ ul {
 .beneficios-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
 }
 
 .beneficio {
   background-color: #efe2c1;
-  box-shadow: 2px 2px 4px rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px rgba(184, 184, 184, 0.71);
+
   padding: 20px;
   border-radius: 8px;
   flex: 1;
